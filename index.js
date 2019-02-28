@@ -28,13 +28,10 @@ console.log('Print: I am coming from release...!');
 console.log('Print: I am coming from release too...!');
 
 console.log("Hey, Plaban here!");
-<<<<<<< HEAD
 console.log("Hey, I am here again!");
-=======
 
 console.log("Hey, I am here again!");
 
 
 console.log("Hey, I am here again!");
 
->>>>>>> master
