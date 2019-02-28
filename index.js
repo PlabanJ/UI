@@ -19,4 +19,3 @@ console.log('Print: I am coming from release too...!');
 
 console.log("Hey, Plaban here!");
 console.log("Hey, I am here again!");
-
