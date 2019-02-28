@@ -1,5 +1,8 @@
 
 console.log("learning to use git");
+
+console.log("Manvi Sharma");
+
 console.log("Manvi Sharma");
 
 console.log('Hey! there');
@@ -47,6 +50,4 @@ console.log("Hey, I am here again!");
 
 
 console.log("Hey, I am here again!");
-
-
 
