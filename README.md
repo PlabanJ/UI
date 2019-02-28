@@ -1,3 +1,18 @@
-# This is a README
+# Git Flow:
 
-## I have added a new line too!
+- master 
+	- production website / stable code
+
+- hotfix/<bug-name>
+	- bug or issue happened on the production website
+
+- release
+	- staging code / release website
+
+- fix/<bug-name>
+	- bug or issue happened on the release website
+
+- development
+	- merged code / local website/system
+
+- feature/<feature-name>
