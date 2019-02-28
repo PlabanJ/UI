@@ -57,6 +57,8 @@ console.log("Hey, I am here again!");
 
 
 console.log("Hey, I am here again!");
+<<<<<<< index.js
+=======
 
 
 
@@ -64,3 +66,4 @@ console.log('Print: I am coming from release too...!');
 
 
 console.log("HIiiiiiiiii");
+>>>>>>> index.js
