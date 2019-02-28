@@ -1,18 +1,18 @@
 # Git Flow:
 
-- master 
+- `master`
 	- production website / stable code
 
-- hotfix/<bug-name>
+- `hotfix/<bug-name>`
 	- bug or issue happened on the production website
 
-- release
+- `release`
 	- staging code / release website
 
-- fix/<bug-name>
+- `fix/<bug-name>`
 	- bug or issue happened on the release website
 
-- development
+- `development`
 	- merged code / local website/system
 
-- feature/<feature-name>
+- `feature/<feature-name>`
