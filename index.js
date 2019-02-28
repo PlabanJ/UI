@@ -1,3 +1,7 @@
+
+console.log("learning to use git");
+console.log("Manvi Sharma");
+
 console.log('Hey! there');
 console.log('apoorva');
 
@@ -36,5 +40,6 @@ console.log("Hey, I am here again!");
 
 console.log("Hey, Plaban here!");
 console.log("Hey, I am here again!");
+
 
 
