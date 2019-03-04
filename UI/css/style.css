@@ -17,6 +17,7 @@ body{
     background-color: #343549;
     display: flex;
     flex-direction: column;
+    position: fixed;
 }
 
 .right-div{
@@ -24,6 +25,7 @@ body{
     height: 902px;
     display: flex;
     flex-direction: column;
+    padding-left: 245px;
 }
 
 .header{
@@ -32,7 +34,9 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
+    position: fixed;
+    left: 246px;
+    right: 0px;
 }
 
 .content{
@@ -67,6 +71,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    
 }
 
 .card{
@@ -77,6 +82,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+
 }
 
 .bottom-div{
