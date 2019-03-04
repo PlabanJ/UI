@@ -8,51 +8,49 @@ body{
 
 .container{
     display: flex;
-    flex-direction: row;
 }
 
 .left-div{
     width: 245px;
-    height: 902px;
+    height: 100vh;
     background-color: #343549;
-    display: flex;
-    flex-direction: column;
     position: fixed;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
 }
 
 .right-div{
-    width: 1193px;
-    height: 902px;
-    display: flex;
-    flex-direction: column;
-    padding-left: 245px;
+    flex: 1;
 }
 
 .header{
     background-color: #EDECF1;
     height: 70px;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     position: fixed;
-    left: 246px;
+    flex-wrap: wrap;
+    left: 245px;
     right: 0px;
+    top: 0px;
 }
 
 .content{
     background-color: #F8F8FA;
-    height: 833px;
     display: flex;
     flex-direction: column;
+    padding-left: 245px;
+    padding-top: 80px;
 }
 
 .content-heading{
-    height: 95px;
-    width: 1193px;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    flex-wrap: wrap;
 }
 
 .right-content button{
@@ -66,12 +64,9 @@ body{
 }
 
 .card-div{
-    height: 152px;
-    width: 1193px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    
+    flex-wrap: wrap;
+    padding: 10px;
 }
 
 .card{
@@ -79,6 +74,8 @@ body{
     height: 150px;
     background-color: #626ED3;
     border-radius: 5px;
+    flex: auto;
+    margin: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -86,33 +83,32 @@ body{
 }
 
 .bottom-div{
-    height: 583px;
-    width: 1193px;
     background-color: #F8F8FA;
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
+    padding: 10px
 }
 
 .transaction{
-    height: 535px;
-    width: 740px;
     background-color: #FFFFFF;   
     display: flex;
     flex-direction: column;   
     border-radius: 6px;
+    overflow-x: auto;
+    flex: auto;
+    margin: 10;
 }
 
 .head{
-    margin-top: 20px;
-    margin-left: 20px;
+    padding: 20px;
     font-weight: bold;
     color: #484852;
 }
 
 .transaction-table{
-    margin: 20px;
+    padding: 10px;
 }
 
 .transaction-table button{
@@ -144,7 +140,6 @@ th, td {
 
 .name-col{
     display: flex;
-    flex-direction: row;
     justify-content: flex-start;
     align-items: center;
 }
@@ -162,13 +157,14 @@ td{
 }
 
 .chat{
-    width: 355px;
-    height: 535px;;
     background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
     border-radius: 6px;
+    flex: auto;
+    margin: 10px;
 }
+
 
 .logo{
     color: #EAEBED;
@@ -237,7 +233,6 @@ form{
 
 .left-sub-div{
     display: flex;
-    flex-direction: row;
     align-items: center;
 }
 
@@ -305,7 +300,6 @@ form{
 .upper-stat{
     height: 58px;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
@@ -318,7 +312,6 @@ form{
 
 .card-left{
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     width: 50%;
     margin-left: 20;
@@ -379,7 +372,6 @@ form{
 
 .chat-user-1{
     display: flex;
-    flex-direction: row;
     padding: 10px;
 }
 
