@@ -85,8 +85,6 @@ body{
 .bottom-div{
     background-color: #F8F8FA;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
     flex-wrap: wrap;
     padding: 10px
 }
@@ -394,6 +392,7 @@ form{
 }
 
 .chat-box{
+    
     padding: 10px;
     display: flex;
     justify-content: space-around;
