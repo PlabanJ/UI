@@ -1,5 +1,5 @@
 *{
-    font-family: monospace;
+    font-family: 'Roboto', sans-serif;
 }
 
 body{
@@ -30,7 +30,6 @@ body{
     display: flex;
     justify-content: space-between;
     position: fixed;
-    flex-wrap: wrap;
     left: 245px;
     right: 0px;
     top: 0px;
@@ -187,9 +186,14 @@ td{
 .side-links li{
     height: 25px;
     padding: 17px 12px;
+    transition: all 0.2s ease-in-out;
+}
+
+.side-links a{
     display: flex;
     justify-content: space-between;
 }
+
 .not-dot .fa{
     margin: 0;
 }
@@ -392,7 +396,7 @@ form{
 }
 
 .chat-box{
-    
+
     padding: 10px;
     display: flex;
     justify-content: space-around;
@@ -442,6 +446,7 @@ form{
     border-radius: 6px;
     padding-left: 10px;
     border: 1px solid #edecf1;
+
 }
 
 .chat-box button{
@@ -450,4 +455,27 @@ form{
     background-color: #4ea59b;
     color: #eefefe;
     border-radius: 6px;
+}
+
+@media only screen and (max-width: 950px){
+    .search-bar, .dropdown-lang, .notification, .nav-item, .not-dot{
+        display: none;
+    }
+
+    .right-sub-div{
+        padding-right: 10px;
+        justify-content: space-between;
+    }
+
+    .left-div{
+        width: 60px;
+    }
+
+    .header{
+        left: 60px;
+    }
+
+    .content{
+        padding-left: 50px;
+    }
 }
