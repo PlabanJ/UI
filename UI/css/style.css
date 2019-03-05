@@ -178,6 +178,7 @@ td{
 .title{
     color: #A8B3C7;
     padding: 3px 12px;
+    font-size: 11px;
 }
 
 .side-links ul{
@@ -193,7 +194,7 @@ td{
 .side-links li{
     height: 25px;
     padding: 17px 12px;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.02s ease-in-out;
 }
 
 .side-links a{
@@ -236,12 +237,6 @@ td{
 
 form{
     margin: 0;
-}
-
-.dropdown select{
-    width: 78px;
-    height: 35px;
-    border: none;
 }
 
 .left-sub-div{
@@ -490,8 +485,6 @@ form{
     width: 60px;
 }
 
-
-
 .container.hide .left-div .not-dot{
     display: none;
 }
@@ -503,3 +496,65 @@ form{
 .container.hide .right-div .header{
     left: 60px;
 }
+
+
+.dropbtn {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f8f9fb;
+    color: #202427;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    width: 78px;
+    height: 35px;
+    border-radius: 5px;
+  }
+
+  .dropbtn-lang{
+    width: 86px;
+    padding: 0px;
+    color: #818e9f;
+    background-color: #ecebf1;
+    font-size: 12px;
+  }
+  
+  
+  .dropdown-content, .dropdown-content-lang{
+    display: none;
+    position: absolute;
+    background-color: #f8f9fb;
+    min-width: 78px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 5px;
+  }
+  
+  .dropdown-content a{
+    color: #202427;
+    padding: 12px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+  }
+
+
+  .dropdown-content-lang a {
+    color: #202427;
+    padding: 12px 0px;
+    text-decoration: none;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .dropdown-content a:hover {background-color: #EDECF1;}
+  
+  .dropdown-content.showDiv {
+    display: block;
+  }
+
+  .dropdown-content-lang.showDiv {
+    display: block;
+  }
+  

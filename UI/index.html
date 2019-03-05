@@ -132,12 +132,10 @@
                             </div>
 
                             <div class="dropdown">
-                                <form>
-                                    <select name="action">
-                                        <option value="">Create</option>
-                                        <option value="">Delete</option>
-                                    </select>
-                                </form>
+                                <button class="dropbtn">Create <i class="fa fa-caret-down" aria-hidden="true"></i></button>
+                                <div class="dropdown-content">
+                                    <a href="#">Delete</a>
+                                </div>
                             </div>
 
                         </div>
@@ -157,12 +155,10 @@
                             </div>
 
                             <div class="dropdown-lang">
-                                <form>
-                                    <select name="action">
-                                        <option style="background-image: url('images/usa_flag.png');" value="volvo">English</option>
-                                        <option style="background-image: url('')" value="saab">Hindi</option>
-                                    </select>
-                                </form>
+                                <button class="dropbtn dropbtn-lang"><img src="images/usa_flag.png" height="14px" width="20px">English<i class="fa fa-caret-down" aria-hidden="true"></i></button>
+                                <div class="dropdown-content-lang" style="width: 86px;">
+                                    <a href="#"><img src="images/india_flag.png" height="14px" width="20px">Hindi</a>
+                                </div>
                             </div>
 
                             <div class="search-bar">
@@ -197,7 +193,7 @@
                                     
                                     <div class="card-left">
                                         <div class="card-icon" style="color: #fcf3fb; font-size: 30px;">
-                                            <i class="fa fa-file" aria-hidden="true"></i>
+                                            <img src="images/01.png" height="34px" width="34px">
                                         </div>
 
                                         <div class="order-stat">
@@ -239,7 +235,7 @@
                                     
                                     <div class="card-left">
                                         <div class="card-icon" style="color: #fcf3fb; font-size: 30px;">
-                                            <i class="fa fa-credit-card" aria-hidden="true"></i>
+                                            <img src="images/02.png" height="32px" width="32px">
                                         </div>
 
                                         <div class="order-stat">
@@ -281,7 +277,7 @@
                                     
                                     <div class="card-left">
                                         <div class="card-icon" style="color: #fcf3fb; font-size: 30px;">
-                                            <i class="fa fa-percent" aria-hidden="true"></i>
+                                            <img src="images/03.png" height="30px" width="32px">
                                         </div>
 
                                         <div class="order-stat">
@@ -297,7 +293,7 @@
                                     <div class="trend-stat">
                                         <div class="ribbon" style="background-color: #3ba4f7;">
                                             <div class="triangle"></div>
-                                            <div style="margin-right: 12px;">-00% </div>   
+                                            <div style="margin-right: 12px;">00% </div>   
                                         </div>
 
                                         <div class="arrow" style="color: #4ca39b;">
@@ -323,7 +319,7 @@
                                     
                                     <div class="card-left">
                                         <div class="card-icon" style="color: #fcf3fb; font-size: 30px;">
-                                            <i class="fa fa-briefcase" aria-hidden="true"></i>
+                                            <img src="images/04.png" height="25.7px" width="32px">
                                         </div>
 
                                         <div class="order-stat">
@@ -556,6 +552,16 @@
         <script type="text/javascript">
 
             $(document).ready(function(){
+
+                $('.dropdown').click(function(){
+                    $('.dropdown-content').toggleClass('showDiv');
+                });
+                
+
+                $('.dropdown-lang').click(function(){
+                    $('.dropdown-content-lang').toggleClass('showDiv');
+                });
+
 
                 $('.expand-screen').click(function(){
                     if (!document.fullscreenElement &&    // alternative standard method
