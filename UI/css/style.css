@@ -168,6 +168,18 @@ td{
     margin: 10px;
 }
 
+.chat-icon-time{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.timestamp{
+    font-size: 10px;
+    text-align: center;
+    color: #7d7e82;
+}
+
 
 .logo{
     color: #EAEBED;
@@ -252,6 +264,8 @@ form{
 
 .notification{
     cursor: pointer;
+    position: relative;
+    padding: 10px;
 }
 
 .profile-icon{
@@ -444,7 +458,7 @@ form{
     border-radius: 6px;
     padding-left: 10px;
     border: 1px solid #edecf1;
-
+    font-size: 13px;
 }
 
 .chat-box button{
@@ -558,4 +572,19 @@ form{
   .dropdown-content-lang.showDiv {
     display: block;
   }
+
+  .not-bell{
+      font-size: 20px;
+  }
   
+  .not-count{
+    background: #e84258;
+    color: white;
+    position: absolute;
+    top: 3px;
+    right: 4px;
+    font-size: 12px;
+    border-radius: 8px;
+    width: 12px;
+    padding-left: 4px;
+  }
