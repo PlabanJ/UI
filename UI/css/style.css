@@ -1,6 +1,6 @@
 *{
     font-family: 'Roboto', sans-serif;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.4s ease-in-out;
 }
 
 body{
@@ -19,7 +19,7 @@ body{
     top: 0px;
     left: 0px;
     bottom: 0px;
-    transition: all 0.2s ease-in-out;
+     
 }
 
 .right-div{
@@ -35,7 +35,7 @@ body{
     left: 245px;
     right: 0px;
     top: 0px;
-    transition: all 0.2s ease-in-out;
+     
 }
 
 .content{
@@ -44,7 +44,7 @@ body{
     flex-direction: column;
     padding-left: 245px;
     padding-top: 80px;
-    transition: all 0.2s ease-in-out;
+     
 }
 
 .content-heading{
@@ -70,7 +70,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     padding: 10px;
-    transition: all 0.2s ease-in-out;
+     
 }
 
 .card{
@@ -188,19 +188,16 @@ td{
     box-sizing: border-box;
     margin-left: 0px;
     padding: 0px;
-    transition: all 0.2s ease-in-out;
 }
 
 .side-links li{
     height: 25px;
     padding: 17px 12px;
-    transition: all 0.02s ease-in-out;
 }
 
 .side-links a{
     display: flex;
     justify-content: space-between;
-    transition: all 0.2s ease-in-out;
 }
 
 .not-dot .fa{
@@ -487,6 +484,10 @@ form{
 
 .container.hide .left-div .not-dot{
     display: none;
+}
+
+.container.hide .left-div .side-links li{
+    padding: 17px;
 }
 
 .container.hide .content{
